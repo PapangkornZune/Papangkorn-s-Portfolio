@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> Papangkorn's Portfolio </title>
+</head>
+
+<nav>
+    <div class="nav_container">
+        <div class="logo">
+            <span>Papangkorn's Portfolio</span>
+        </div>
+        <div class="links">
+            <div class="link"><a href="#home_sec">Home</a></div>
+            <div class="link"><a href="#about_sec">About</a></div>
+            <div class="link"><a href="#skill_sec">Skills</a></div>
+            <div class="link"><a href="#work_sec">My Works</a></div>
+            <div class="link"><a href="#contact_sec">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+
+    <div class="dropdown">
+        <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">My Works</a>
+        <a href="#">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home_sec">
+    <div class="main" id="main">
+        <div class="image">
+            <img src="wall3.png" alt="">
+        </div>
+
+        <div class="content">
+            <h2 data-aos="fade=left">
+                Hallo, My name is...
+            </h2>
+            <h1>
+                Papangkorn Aunsirichai
+            </h1>
+            <div class="typewriter">
+                I'm a
+                <span class="typewriter-text">Developer</span>
+            </div>
+            <div class="main_links" id="social_links">
+                <a href="https://www.facebook.com/papangkornzune" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook">
+                    </i>
+                </a>
+                <a href="https://line.me/ti/p/4v_q1SSj0xe" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-line">
+                    </i>
+                </a>
+                <a href="https://github.com/PapangkornZune" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github">
+                    </i>
+                </a>
+                <a href="https://discord.com/users/240089029469667328" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-discord">
+                    </i>
+                </a>
+            </div>
+            <a href="#about_sec" class="button">About Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<sections id="about_sec">
+    <div class="about" id="about">
+        <h3><span>About Me</span></h3>
+
+        <div class="about_container">
+            <div class="profile_pic">
+                <img src="profile.png" alt="">
+            </div>
+            <div class="info">
+                <h2>Get to Know Me:</h2>
+                    <div>◉ Name: Papangkorn Aunsirichai | ปภังกร อุ่นสิริชัย</div>
+                    <div>◉ Nickname: Zune | ซุน</div>
+                    <div>◉ Birthday: 15 January 2004 | 15 มกราคม 2547</div>
+                    <div>◉ Nationality: Thai | ไทย</div>
+                    <div>◉ Address: Bangkok, Bang Bon district | กรุงเทพมหานคร, เขตบางบอน</div>
+                    <div>◉ Interest: Game Development, Web Development, Designing</div>
+
+                <h2>Education:</h2>
+                    <div>◉ Currently studying at Bangkok University</div>
+                    <div>◉ School of Information Technology and Innovation — Computer Science</div>
+                    <div>◉ Currently Cum GPA. 3.83 (Year 3, Semester 2/67)</div>
+
+                <h2>Email:</h2>
+                    <div>◉ Papangkornzune@gmail.com</div>
+                    <div>◉ Papangkorn.auns@bumail.net</div>
+            </div>
+        </div>
+    </div>
+</sections>
+
+<!-- Skills -->
+<section id="skill_sec">
+    <div class="skills_container">
+        <div class="skills_rating" id="skills_rating">
+            <h3><span>Skills Rating</span></h3>
+            <div class="python"><i class="fa-brands fa-python"></i> Python - 50%</div>
+            <div class="rating_python">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="java"><i class="fa-brands fa-java"></i> Java - 40%</div>
+            <div class="rating_java">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="html"><i class="fa-brands fa-html5"></i> HTML - 20%</div>
+            <div class="rating_html">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="css"><i class="fa-brands fa-css3-alt"></i> CSS - 20%</div>
+            <div class="rating_css">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="figma"><i class="fa-brands fa-figma"></i> Figma - 35%</div>
+            <div class="rating_figma">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-alt checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="ps">◉ Adobe Photoshop - 40%</div>
+            <div class="rating_ps">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="ae">◉ Adobe After Effects - 35%</div>
+            <div class="rating_ae">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-alt checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="language_rating" id="language_rating">
+            <h3><span>Language Rating</span></h3>
+            <div class="thai">🇹🇭 Thai - Native</div>            
+            <div class="rating_th">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div class="english">🇬🇧 English - Intermediate</div>            
+            <div class="rating_en">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-alt checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="deutsch">🇩🇪 Deutsch - Very Beginner (Self-Study)</div>            
+            <div class="rating_de">
+                <span class="fa fa-star-half-alt checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- My Works -->
+<sections id="work_sec">
+    <div class="my_works" id="my_works">
+        <div class="works"><span>My Works</span></div>
+
+        <section class="lunar_container">
+            <div class="lunar_wrapper">
+                <div class="lunar_slide">
+                    <img id="lunar_01" src="lunar_01.png" alt="">
+                    <img id="lunar_02" src="lunar_02.png" alt="">
+                    <img id="lunar_03" src="lunar_03.png" alt="">
+                </div>
+                <div class="lunar_nav"></div>
+                    <a href="lunar_01"></a>
+                    <a href="lunar_02"></a>
+                    <a href="lunar_02"></a>
+            </div>
+
+            <div class="lunar_header">
+                <h2>Lunar Board Game System</h2>
+                <div>The Lunar Board Game System is a Warehouse Management System designed for board game cafés. It includes features such as a Product Management System, Table Management System, and more.</div>
+                <div>◉ Software: Apache NetBeans, MySQL</div>
+                <div>◉ Language: Java</div>
+            </div>
+        </section>
+
+        <section class="gacha_container">
+            <div class="gacha_wrapper">
+                <div class="gacha_slide">
+                    <img id="gacha_01" src="gacha_01.png" alt="">
+                    <img id="gacha_02" src="gacha_02.png" alt="">
+                    <img id="gacha_03" src="gacha_03.png" alt="">
+                </div>
+                <div class="gacha_nav"></div>
+                        <a href="gacha_01"></a>
+                        <a href="gacha_02"></a>
+                        <a href="gacha_02"></a>
+            </div>
+
+            <div class="gacha_header">
+                <h2>Gacha Simulator</h2>
+                <div>Gacha Simulator is a turn-based card game featuring a Card Deck System, Gacha System, and a complete turn-based card gameplay system.</div>
+                <div>◉ Software: Apache NetBeans</div>
+                <div>◉ Language: Java</div>
+            </div>
+        </section>
+    </div>
+</sections>
+
+<!-- Contact -->
+<sections id="contact_sec">
+    <div class="contact" id="contact">
+        <h3 class="Contact">Contact</h3>
+        <div>Email: Papangkornzune@gmail.com | Papangkorn.auns@bumail.net</div>
+        <div>Phone Number: 089-759-7593</div>
+        <div>Facebook: Papangkorn Aunsirichai</div>
+    </div>
+    <div class="social_links" id="social_links">
+        <a href="https://www.facebook.com/papangkornzune" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook">
+            </i>
+        </a>
+        <a href="https://line.me/ti/p/4v_q1SSj0xe" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-line">
+            </i>
+        </a>
+        <a href="https://github.com/PapangkornZune" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github">
+            </i>
+        </a>
+        <a href="https://discord.com/users/240089029469667328" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-discord">
+            </i>
+        </a>
+    </div>
+</sections>
+</html>
